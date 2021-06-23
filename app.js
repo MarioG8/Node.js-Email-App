@@ -57,7 +57,7 @@ app.post("/send", (req, res) => {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Nodemailer Contact 📧.." <EMAIL_USER>', // sender address
+      from: '"Nodemailer Contact 📧😎💻" <EMAIL_USER>', // sender address
       to: "vipmario@wp.pl", // list of receivers
       subject: "Node Contact Request✔", // Subject line
       text: "Hello world?", // plain text body

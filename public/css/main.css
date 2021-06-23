@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Joti+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Joti One", cursive;
+  color: #fff;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("./../img/code_005.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 55ch;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.msg_last {
+  font-weight: 700;
+  color: crimson;
+  margin-bottom: 0.5rem;
+}
+
+.control > input,
+.control > button,
+.control > textarea {
+  padding: 10px;
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+  color: #000;
+  background: #ddd;
+  outline: none;
+  border: none;
+  margin: 1em 0;
+  font-family: "Joti One", cursive;
+}
+.control .btn {
+  border-radius: 3px;
+  display: inline-block;
+  font-family: "Joti One", cursive;
+  color: #fff;
+  background: #049992;
+  transition: all 0.3s ease;
+}
+.btn:focus,
+.btn:hover {
+  background: #066b66;
+}
+
+@media (max-width: 699px) {
+  .container {
+    width: 40ch;
+    padding: 1rem 2rem;
+  }
+}
